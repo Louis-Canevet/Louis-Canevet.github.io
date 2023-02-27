@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "SPHERE-FEZ";
+  src: url(../font/SPHERE-FEZ.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-nav";
+  src: url(../font/Roboto-Regular.ttf);
+}
+
+html,body{
+  height: 100%;
+  overflow: none;
+  color: black;
+  background-color: white;
+  background-image:url(../img/fondEcranModerne1.jpg);
+  background-repeat:no-repeat;
+}
+
+.navbar > div > ul > li{
+  font-family: "Roboto-nav", serif;
+}
+
+nav a:hover {
+  background-color: #213242;
+}
+
+.container-height{
+  margin-top: 2%;
+  height: 85%;
+}
+
+.ct{
+ font-family: "SPHERE-FEZ", serif;
+ background: linear-gradient(
+  to right,#ffffff, #ff0000);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+}
