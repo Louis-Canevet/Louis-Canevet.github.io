@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Roboto-text";
-  src: url(../font/Roboto-Thin.ttf);
+  font-family: "SPHERE-FEZ";
+  src: url(../font/SPHERE-FEZ.ttf);
 }
 
 @font-face {
@@ -10,6 +10,11 @@
 
 html,body{
   height: 100%;
+  overflow: none;
+  color: black;
+  background-color: white;
+  background-image:url(../img/FumeeNoirFondGris.jpg);
+  background-repeat:no-repeat;
 }
 
 .navbar > div > ul > li{
@@ -19,11 +24,15 @@ html,body{
 nav a:hover {
   background-color: #213242;
 }
-.ct{
-  font-family: "Roboto", serif;
-  color : #9BAEC2;
-}
 
 .container-height{
-  height: 90%;
+  height: 90%
+}
+
+.ct{
+ font-family: "SPHERE-FEZ", serif;
+ background: linear-gradient(
+  to right,#ff0000, #000000);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
 }

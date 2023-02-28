@@ -13,7 +13,7 @@ html,body{
   overflow: none;
   color: black;
   background-color: white;
-  background-image:url(../img/fondEcranModerne1.jpg);
+  background-image:url(../img/FumeeNoirFondGris.jpg);
   background-repeat:no-repeat;
 }
 
@@ -32,7 +32,7 @@ nav a:hover {
 .ct{
  font-family: "SPHERE-FEZ", serif;
  background: linear-gradient(
-  to right,#ffffff, #ff0000);
+  to right,#ff0000, #000000);
  -webkit-text-fill-color: transparent;
  -webkit-background-clip: text;
 }
