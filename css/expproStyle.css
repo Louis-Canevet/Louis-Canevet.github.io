@@ -34,10 +34,11 @@ nav a:hover {
 
 .ct{
  font-family: "SPHERE-FEZ", serif;
- background: linear-gradient(
+ color:black;
+ /*background: linear-gradient(
   to right,#ff0000, #000000);
  -webkit-text-fill-color: transparent;
- -webkit-background-clip: text;
+ -webkit-background-clip: text;*/
 }
 
 .list{
