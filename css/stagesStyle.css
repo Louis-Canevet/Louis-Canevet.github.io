@@ -11,10 +11,13 @@
 html,body{
   height: 100%;
   overflow: none;
-  color: black;
-  background-color: white;
-  background-image:url(../img/FumeeNoirFondGris.jpg);
+  color: white;
+  background-color: rgb(255, 255, 255);
+  background-image:url(../img/background/FumeeNoirFondGris.jpg);
+  background-attachment:fixed;
+  background-position:center;
   background-repeat:no-repeat;
+  background-size:cover;
 }
 
 .navbar > div > ul > li{
