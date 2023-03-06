@@ -8,6 +8,11 @@
   src: url(../font/Roboto-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Designer";
+  src: url(../font/Designer.otf);
+}
+
 html,body{
   height: 100%;
   overflow: none;
@@ -32,24 +37,19 @@ nav a:hover {
   height: 90%
 }
 
+.atStyle{
+  font-family: "SPHERE-FEZ", serif;
+  color:black;
+}
 .ct{
- font-family: "SPHERE-FEZ", serif;
- font-size: x-medium;
- color: rgb(0, 0, 0);
+ font-family: "Designer", serif;
+ color:black;
  /*background: linear-gradient(
   to right,#ff0000, #000000);
  -webkit-text-fill-color: transparent;
  -webkit-background-clip: text;*/
 }
 
-@media (max-width : 768px){
-  .container-height{
-    height: auto;
-  }
-}
-
-@media (min-width : 768px){
-  .container-height{
-    height: 85%;
-  }
+.list{
+  text-align:left;
 }

@@ -8,6 +8,11 @@
   src: url(../font/Roboto-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Designer";
+  src: url(../font/Designer.otf);
+}
+
 html,body{
   height: 100%;
   overflow: none;
@@ -32,8 +37,12 @@ nav a:hover {
   height: 90%
 }
 
+.atStyle{
+  font-family: "SPHERE-FEZ", serif;
+  color:black;
+}
 .ct{
- font-family: "SPHERE-FEZ", serif;
+ font-family: "Designer", serif;
  color:black;
  /*background: linear-gradient(
   to right,#ff0000, #000000);
