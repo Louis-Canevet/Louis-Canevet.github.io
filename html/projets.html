@@ -57,8 +57,54 @@
           <h3 class="atStyle">Galaxy Swiss Bourdin</h3>
           <h3 class="atStyle">BTS SIO</h3>
         </div>
+        <!--
+        <div class="col-xl-12 col-lg-12 col-md-12 animate-text" style="margin-top:15px;">
+          <h3 class="animate-text">Projet</h3>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 animate-text" style="margin-top:15px;">
+          <h3 class="animate-text">Galaxy Swiss Bourdin</h3>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 animate-text" style="margin-top:15px;">
+          <h3 class="animate-text">BTS SIO</h3>
+        </div>
+        
+        <script>
+          /* ------------------------- */
+          /* Version en JavaScript pur */
+          /* ------------------------- */
+          "use strict";
+          window.addEventListener("DOMContentLoaded", (event) => {
+            animate_text();
+          });
+          // -------------------
+          function animate_text() 
+          {
+            let delay = 100,
+                delay_start = 0,
+                contents,
+                letters;
+    
+            document.querySelectorAll(".animate-text").forEach(function (elem) {
+              contents = elem.textContent.trim();
+              elem.textContent = "";
+              letters = contents.split("");
+              elem.style.visibility = 'visible';
+    
+              letters.forEach(function (letter, index_1) {
+                setTimeout(function () {
+                  // ---------
+                  // effet machine à écrire (SIMPLE)
+                  elem.textContent += letter;
+                }, delay_start + delay * index_1);
+              });    
+              delay_start += delay * letters.length;
+            });
+          }
+        </script>
+        -->
 
-        <div class="col-xl-8 col-lg-8 col-md-8" style="border:3px solid rgb(0, 0, 0);background-color: white;">
+        <div class="col-xl-6 col-lg-6 col-md-6" style="text-align:start; border:3px solid rgb(0, 0, 0); background-color: white;">
+          <br/>
           <h4 class="atStyle"><u>CONTEXTE :</u></h4>
           <p class="mt-3 ct">Reprise du projet GSB (site web) réalisé en première année et modification afin de le convertire dans un modèle MCV sous CodeIgniter4.</p>
           <h4 class="atStyle"><u>RÉALISATION :</u></h4>
@@ -74,18 +120,22 @@
               Rédiger et améliorer la documentation liée au code.
             </li>
           </ul>
-          <p class="mt-3 ct">Les pages réalisées :</p>
-          <a href="../img/mvc/pageAccueil.png">Page d'accueil.</a><br>
-          <a href="../img/mvc/connexion.png">Page de connexion au site.</a><br>
-          <a href="../img/mvc/consulterFicheFrais.png">Page pour consulter les fiches de frais.</a><br>
-          <a href="../img/mvc/renseigneFicheFrais.png">Page pour renseigner les fiches de frais forfait.</a><br>
-          <a href="../img/mvc/renseigneFicheFraisHorsForfait.png">Page pour renseigner les fiches de frais hors forfait.</a><br>
-          <a href="../img/mvc/rgpd1.png">Page pour les RGPD.</a><br>
-          <a href="../img/mvc/rgpd2.png">Page pour les RGPD 2ème partie.</a><br>
-          <a href="https://1drv.ms/f/s!Ag7RgwyMN2vFtBjfkXufIOEKTnjS">Toute la documentation</a>
+          </br>
+          <div style="text-align:start;">
+            <p class="mt-3 ct" style="text-align:start;">Les pages réalisées :</p>
+            <a href="../img/mvc/pageAccueil.png">Page d'accueil.</a><br>
+            <a href="../img/mvc/connexion.png">Page de connexion au site.</a><br>
+            <a href="../img/mvc/consulterFicheFrais.png">Page pour consulter les fiches de frais.</a><br>
+            <a href="../img/mvc/renseigneFicheFrais.png">Page pour renseigner les fiches de frais forfait.</a><br>
+            <a href="../img/mvc/renseigneFicheFraisHorsForfait.png">Page pour renseigner les fiches de frais hors forfait.</a><br>
+            <a href="../img/mvc/rgpd1.png">Page pour les RGPD.</a><br>
+            <a href="../img/mvc/rgpd2.png">Page pour les RGPD 2ème partie.</a><br>
+            <a href="https://1drv.ms/f/s!Ag7RgwyMN2vFtBjfkXufIOEKTnjS">Toute la documentation</a>
+          </div>
+         </br>
         </div>
   
-        <div class="col-xl-8 col-lg-8 col-md-8" style="border:3px solid rgb(0, 0, 0); background-color: white;">
+        <div class="col-xl-6 col-lg-6 col-md-6" style="text-align:start; border:3px solid rgb(0, 0, 0); background-color: white;">
           <h4 class="atStyle"><u>CONTEXTE :</u></h4>
           <p class="mt-3 ct">Réalisation d'un logiciel sous JAVA, permettant de consulte les medecin, etc</p>
           <h4 class="atStyle"><u>RÉALISATION :</u></h4>
@@ -103,7 +153,7 @@
           </ul>
         </div>
 
-        <div class="bgCase col-xl-8 col-lg-8 col-md-8" style="border:3px solid rgb(0, 0, 0); background-color: white;">
+        <div class="col-xl-6 col-lg-6 col-md-6" style="text-align:start; border:3px solid rgb(0, 0, 0); background-color: white;">
           <h4 class="atStyle"><u>CONTEXTE :</u></h4>
           <p class="mt-3 ct">Réalisation d'une application sous android (java), permettant de gérer des stock, consulter les échantillons et les mettres à jours</p>
           <h4 class="atStyle"><u>RÉALISATION :</u></h4>
