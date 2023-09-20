@@ -20,32 +20,19 @@ html,body{
   background-size:cover;
 }
 
-.navbar > div > ul > li {
+/* Styles pour la barre de navigation */
+.navbar {
   font-family: "Roboto-nav", serif;
-  font-size: 16px; /* Taille de police normale */
-  background-color: rgba(255, 255, 255, 0); /* Couleur de fond transparente */
-  border: none;
-  color: #fff; /* Couleur du texte en blanc */
-  padding: 10px 20px; /* Espacement interne du bouton */
-  cursor: pointer; /* Curseur de la souris en forme de main */
-  transition: background-color 0.2s, color 0.2s; /* Ajoute une transition de 0.2 secondes pour la couleur de fond et la couleur du texte */
+  background-color: #343a40; /* Couleur de fond */
 }
 
-.navbar > div > ul > li:hover {
-  font-size: 20px; /* Nouvelle taille de police au survol */
-  border-radius: 50%; /* Le bouton devient rond au survol */
+.navbar-nav .nav-item .nav-link {
+  color: white; /* Couleur du texte en blanc */
 }
 
-.navbar > div > ul:hover > li:not(:hover) {
-  backdrop-filter: blur(3px); /* Rend les autres boutons flous uniquement lorsque la souris n'est pas sur eux */
+.navbar-nav .nav-item .nav-link:hover {
+  color: #17a2b8; /* Couleur du texte en bleu au survol */
 }
-
-.navbar > div > ul {
-  overflow: hidden; /* Empêche les éléments enfants de déborder du conteneur */
-}
-
-
-
 
 
 
