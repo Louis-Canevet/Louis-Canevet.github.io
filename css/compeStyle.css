@@ -53,3 +53,36 @@ nav a:hover {
 .list{
   text-align:left;
 }
+
+/* Styles personnalisés pour les cartes de compétences */
+.skill-card {
+  border: 2px solid #000000; /* Ajout d'une bordure */
+  border-radius: 10px; /* Coins arrondis */
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card img {
+  background-color: white;
+  border-radius: 25%;
+  margin-top: 15px;
+}
+
+.skill-title {
+  font-family: "SPHERE-FEZ", serif; /* Appliquer la police d'écriture */
+  font-size: 18px; /* Ajuster la taille de police */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.skill-description {
+  font-family: "SPHERE-FEZ", "Designer", serif; /* Appliquer la police d'écriture */
+  font-size: 16px; /* Ajuster la taille de police */
+  color: black;
+}
