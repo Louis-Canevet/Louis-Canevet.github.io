@@ -1,16 +1,6 @@
 @font-face {
-  font-family: "SPHERE-FEZ";
-  src: url(../font/SPHERE-FEZ.ttf);
-}
-
-@font-face {
   font-family: "Roboto-nav";
   src: url(../font/Roboto-Regular.ttf);
-}
-
-@font-face {
-  font-family: "Designer";
-  src: url(../font/Designer.otf);
 }
 
 html,body{
@@ -37,17 +27,9 @@ nav a:hover {
   height: 90%
 }
 
-.atStyle{
-  font-family: "SPHERE-FEZ", serif;
+.atStyle, .ct{
+  font-family: "Roboto-nav", serif;
   color:black;
-}
-.ct{
- font-family: "Designer", serif;
- color:black;
- /*background: linear-gradient(
-  to right,#ff0000, #000000);
- -webkit-text-fill-color: transparent;
- -webkit-background-clip: text;*/
 }
 
 .list{
@@ -56,33 +38,39 @@ nav a:hover {
 
 /* Styles personnalisés pour les cartes de compétences */
 .skill-card {
-  border: 2px solid #000000; /* Ajout d'une bordure */
+  width: 100%; /* Assurez-vous que la carte soit responsive et s'adapte à la colonne */
+  height: 250px; /* Hauteur fixe pour toutes les cartes */
+  margin-bottom: 20px; /* Espacement entre les cartes */
+  border: 2px solid #000000; /* Bordure noire */
   border-radius: 10px; /* Coins arrondis */
-  margin-top: 10px;
-  background-color: rgb(255, 255, 255);
-  transition: transform 0.3s ease-in-out;
+  background-color: rgb(255, 255, 255); /* Couleur de fond blanche */
+  transition: transform 0.3s ease-in-out; /* Animation au survol */
 }
 
 .skill-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); /* Agrandissement léger au survol */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Ombre portée */
 }
 
 .skill-card img {
+  height: 120px; /* Hauteur fixe pour les images */
+  width: 100%; /* Largeur complète de la carte */
+  object-fit: contain; /* Assure que l'image s'adapte sans être coupée ou déformée */
+  padding: 10px; /* Espacement autour de l'image */
   background-color: white;
   border-radius: 25%;
   margin-top: 15px;
 }
 
 .skill-title {
-  font-family: "SPHERE-FEZ", serif; /* Appliquer la police d'écriture */
-  font-size: 18px; /* Ajuster la taille de police */
+  font-family: "Roboto-nav", serif;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: underline;
 }
 
 .skill-description {
-  font-family: "SPHERE-FEZ", "Designer", serif; /* Appliquer la police d'écriture */
-  font-size: 16px; /* Ajuster la taille de police */
+  font-family: "Roboto-nav", serif;
+  font-size: 16px;
   color: black;
 }

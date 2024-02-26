@@ -1,9 +1,4 @@
 @font-face {
-  font-family: "SPHERE-FEZ";
-  src: url(../font/SPHERE-FEZ.ttf);
-}
-
-@font-face {
   font-family: "Roboto-nav";
   src: url(../font/Roboto-Regular.ttf);
 }
@@ -34,7 +29,7 @@ nav a:hover {
 }
 
 .ct{
- font-family: "SPHERE-FEZ", serif;
+ font-family: "Roboto-nav", serif;
  color:black;
  /*background: linear-gradient(
   to right,#ffffff, #ff0000);

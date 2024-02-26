@@ -1,9 +1,4 @@
 @font-face {
-  font-family: "SPHERE-FEZ";
-  src: url(../font/SPHERE-FEZ.ttf);
-}
-
-@font-face {
   font-family: "Roboto-nav";
   src: url(../font/Roboto-Regular.ttf);
 }
@@ -34,17 +29,12 @@ html,body{
   color: #17a2b8; /* Couleur du texte en bleu au survol */
 }
 
-
-
-
-
-
 .container-height{
   height: 90%;
 }
 
 .atStyle{
- font-family: "SPHERE-FEZ", serif;
+ font-family: "Roboto-nav", serif;
  color:black;
  /*background: linear-gradient(
   to right,#ff0000, #000000);
@@ -52,18 +42,16 @@ html,body{
  -webkit-background-clip: text;*/
 }
 
-
-
 /* effet machine à écrire (SIMPLE) */
 .animate-text { 
 	visibility:hidden;
-  font-family:"SPHERE-FEZ",sans-serif;
+  font-family:"Roboto-nav",sans-serif;
   color:black; 
 }
 
 /* déco */
 .animate-text { 
-  font-family: "SPHERE-FEZ", serif;
+  font-family: "Roboto-nav", serif;
   color:black;
   /*background: linear-gradient(
    to right,#ff0000, #000000);
